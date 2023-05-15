@@ -4,6 +4,27 @@ h3{
 }
 
 .main{
+    padding: 2vh 2vw;
+    width: 50%;
     background-color: whitesmoke;
 }
-
+.weather{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+.weather th{
+    text-align: left;
+    padding-right: 40px;
+}
+.searchBar #search{
+     width: 100%;
+     display: block;
+}
+.searchBar .btn{
+    border: 1px solid black;
+}
+.searchBar .btn:hover{
+    background-color: rgb(16, 16, 202);
+    color: white;
+}
